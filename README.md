@@ -2,7 +2,7 @@
 ### PDDGCN: A parasitic disease-drug association predictor based on multi-view fusion graph convolutional networks
 
 
-![image](https://github.com/wangxiaosong96/MCGCN/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
+![image](https://github.com/wangxiaosong96/PDDGCN/blob/main/flow%20chart.png)
 
 ## Tutorial
 1. Split data for cross validation and indenpendent test experiment via the script split_data.py: python split_data.py fold_number DATANAME seed_indent seed_cross
