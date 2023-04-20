@@ -1,5 +1,5 @@
-# MCGCN
-### MCGCN: predict drug-disease associations in animal parasitic disease based on multi-class graph convolutional network
+# PDDGCN
+### PDDGCN: A parasitic disease-drug association predictor based on multi-view fusion graph convolutional networks
 
 
 ![image](https://github.com/wangxiaosong96/MCGCN/blob/main/%E6%B5%81%E7%A8%8B%E5%9B%BE.png)
