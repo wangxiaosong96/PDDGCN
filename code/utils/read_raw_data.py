@@ -17,7 +17,7 @@ def readData(dataName, usedDataPath):
         names = {'A': 'drug',
                  'b': 'disease'}
         # association matrix
-        dataY=np.loadtxt(dataPrefix+'association111.txt',dtype=float,delimiter=' ',encoding='utf-8-sig')
+        dataY=np.loadtxt(dataPrefix+'association.txt',dtype=float,delimiter=' ',encoding='utf-8-sig')
         # drug
         dr_enzyme_sim=np.loadtxt(dataPrefix+'drug_1d_sim.txt',dtype=float,delimiter=' ',encoding='utf-8-sig')
         dr_target_sim=np.loadtxt(dataPrefix+'drug_3d_sim.txt',dtype=float,delimiter=' ',encoding='utf-8-sig')
