@@ -24,7 +24,7 @@ def readData(dataName, usedDataPath):
         dr_struct_sim=np.loadtxt(dataPrefix+'drug_finger_sim.txt',dtype=float,delimiter=' ',encoding='utf-8-sig')
        #dr_pathwy_sim=np.loadtxt(dataPrefix+'pathway_sim.txt',dtype=float,delimiter=' ')
        #dr_intera_sim=np.loadtxt(dataPrefix+'drug_interaction_sim.txt',dtype=float,delimiter=' ')
-        AAr=np.array([dr_enzyme_sim,dr_target_sim,dr_struct_sim])           #把几个相似矩阵整合起来,dr_pathwy_sim,dr_intera_sim
+        AAr=np.array([dr_enzyme_sim,dr_target_sim,dr_struct_sim])           
         ANet = {}
         # disease
         dis_sim=np.loadtxt(dataPrefix+'dis_sim.txt',dtype=float,delimiter=' ',encoding='utf-8-sig')
