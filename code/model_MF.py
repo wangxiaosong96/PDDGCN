@@ -14,7 +14,7 @@ from torch.nn.parameter import Parameter
 from torch.nn.init import xavier_normal_, xavier_uniform_, kaiming_normal_, kaiming_uniform_
 import torch as t
 
-from utils.NIPLayer import NIP
+from utils.NIALayer import NIP
 
 seed = 1
 if torch.cuda.is_available():
